@@ -11,6 +11,6 @@ app
 app.get("/hello-world", async (req, res) => {
   return res.send({
     message: "Hello world",
-    success: false,
+    success: true,
   });
 });
